@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		F772C7CA2AE0523E0024CE59 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F772C7C92AE0523E0024CE59 /* main.c */; };
+		F772C7D72AE0526F0024CE59 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F772C7D62AE0526F0024CE59 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		F772C7C42AE0523E0024CE59 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F772C7D22AE0526F0024CE59 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		F772C7C62AE0523E0024CE59 /* with-Murat-Yucedag */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "with-Murat-Yucedag"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F772C7C92AE0523E0024CE59 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F772C7D42AE0526F0024CE59 /* Ders1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ders1; sourceTree = BUILT_PRODUCTS_DIR; };
+		F772C7D62AE0526F0024CE59 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F772C7C32AE0523E0024CE59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F772C7D12AE0526F0024CE59 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				F772C7C82AE0523E0024CE59 /* with-Murat-Yucedag */,
+				F772C7D52AE0526F0024CE59 /* Ders1 */,
 				F772C7C72AE0523E0024CE59 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				F772C7C62AE0523E0024CE59 /* with-Murat-Yucedag */,
+				F772C7D42AE0526F0024CE59 /* Ders1 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +81,14 @@
 				F772C7C92AE0523E0024CE59 /* main.c */,
 			);
 			path = "with-Murat-Yucedag";
+			sourceTree = "<group>";
+		};
+		F772C7D52AE0526F0024CE59 /* Ders1 */ = {
+			isa = PBXGroup;
+			children = (
+				F772C7D62AE0526F0024CE59 /* main.c */,
+			);
+			path = Ders1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +111,23 @@
 			productReference = F772C7C62AE0523E0024CE59 /* with-Murat-Yucedag */;
 			productType = "com.apple.product-type.tool";
 		};
+		F772C7D32AE0526F0024CE59 /* Ders1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F772C7D82AE0526F0024CE59 /* Build configuration list for PBXNativeTarget "Ders1" */;
+			buildPhases = (
+				F772C7D02AE0526F0024CE59 /* Sources */,
+				F772C7D12AE0526F0024CE59 /* Frameworks */,
+				F772C7D22AE0526F0024CE59 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ders1;
+			productName = Ders1;
+			productReference = F772C7D42AE0526F0024CE59 /* Ders1 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +138,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					F772C7C52AE0523E0024CE59 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F772C7D32AE0526F0024CE59 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -110,6 +159,7 @@
 			projectRoot = "";
 			targets = (
 				F772C7C52AE0523E0024CE59 /* with-Murat-Yucedag */,
+				F772C7D32AE0526F0024CE59 /* Ders1 */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +170,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F772C7CA2AE0523E0024CE59 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F772C7D02AE0526F0024CE59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F772C7D72AE0526F0024CE59 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +315,22 @@
 			};
 			name = Release;
 		};
+		F772C7D92AE0526F0024CE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F772C7DA2AE0526F0024CE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -274,6 +348,15 @@
 			buildConfigurations = (
 				F772C7CE2AE0523E0024CE59 /* Debug */,
 				F772C7CF2AE0523E0024CE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F772C7D82AE0526F0024CE59 /* Build configuration list for PBXNativeTarget "Ders1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F772C7D92AE0526F0024CE59 /* Debug */,
+				F772C7DA2AE0526F0024CE59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

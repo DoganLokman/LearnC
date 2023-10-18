@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:Ders 1/Ders 1.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>
