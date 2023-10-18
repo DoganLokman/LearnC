@@ -1,2 +1,16 @@
 # LearnC
-<p>Bu Repository'de Youtube üzerinden Murat Yücedağ kanalında anlatılan C derslerini uygulayacağım. Umarım takip edenler için bilgilendirici olur.</p>
+<p>Bu Repository'de aldığım C derslerini uygulayacağım. Umarım takip edenler için bilgilendirici olur.</p>
+<p>Şimdilik Murat Yücedağ'ın YouTube kanalından takip ettiğim C dersleri videolarını <b>with-Murat-Yucedag</b> dizini içerisinde topluyorum.</p>
+
+## with-Murat-Yucedag Dizini
+<p>Bu dizinde her videoyu ayrı ders olarak ekleyeceğim. Ekledikçede burada içeriği hakkında kısa bilgilendirmeler yapacağım.</p>
+<table>
+  <tr>
+    <th>Ders 1</th>
+    <td>Bu derste C diliyle ilgili bir kaç bilgilendirme yapılıp ilk kodumuz olan "Hello, world!" yazdırma işlemini gerçekleştirdik.</td>
+  </tr>
+  <tr>
+    <th>Ders 2</th>
+    <td>Bu derste veri türlerine ufak bir giriş yaptık ve char veri tipi üzerinde detaylandırmalar ve çeşitli uygulamalarını yaptık.</td>
+  </tr>
+</table>
