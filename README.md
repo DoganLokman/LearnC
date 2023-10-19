@@ -13,4 +13,12 @@
     <th>Ders 2</th>
     <td>Bu derste veri türlerine ufak bir giriş yaptık ve char veri tipi üzerinde detaylandırmalar ve çeşitli uygulamalarını yaptık.</td>
   </tr>
+  <tr>
+    <th>Ders 3</th>
+    <td>Bu derste scanf fonksiyonu ele alındı. Şimdilik sadece char tipi değişken türlerini işlediğimiz için scanf fonksiyonu da sadece char türü değişkenler için örneklendirildi.</td>
+  </tr>
+  <tr>
+    <th>Ders 4</th>
+    <td>Bu derste int (integer) veri türü incelendi.</td>
+  </tr>
 </table>
