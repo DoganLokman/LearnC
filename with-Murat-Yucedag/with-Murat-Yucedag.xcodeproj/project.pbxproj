@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F71BDC5A2AE19834008A82DA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F71BDC592AE19834008A82DA /* main.c */; };
 		F75C673B2AE06E08002FAA47 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F75C673A2AE06E08002FAA47 /* main.c */; };
 		F772C7CA2AE0523E0024CE59 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F772C7C92AE0523E0024CE59 /* main.c */; };
 		F772C7D72AE0526F0024CE59 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F772C7D62AE0526F0024CE59 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		F71BDC552AE19833008A82DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F75C67362AE06E08002FAA47 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,6 +53,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F71BDC572AE19833008A82DA /* Ders3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ders3; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71BDC592AE19834008A82DA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F75C67382AE06E08002FAA47 /* Ders2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ders2; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75C673A2AE06E08002FAA47 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F772C7C62AE0523E0024CE59 /* with-Murat-Yucedag */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "with-Murat-Yucedag"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +64,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F71BDC542AE19833008A82DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F75C67352AE06E08002FAA47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F71BDC582AE19833008A82DA /* Ders3 */ = {
+			isa = PBXGroup;
+			children = (
+				F71BDC592AE19834008A82DA /* main.c */,
+			);
+			path = Ders3;
+			sourceTree = "<group>";
+		};
 		F75C67392AE06E08002FAA47 /* Ders2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +117,7 @@
 				F772C7C82AE0523E0024CE59 /* with-Murat-Yucedag */,
 				F772C7D52AE0526F0024CE59 /* Ders1 */,
 				F75C67392AE06E08002FAA47 /* Ders2 */,
+				F71BDC582AE19833008A82DA /* Ders3 */,
 				F772C7C72AE0523E0024CE59 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +128,7 @@
 				F772C7C62AE0523E0024CE59 /* with-Murat-Yucedag */,
 				F772C7D42AE0526F0024CE59 /* Ders1 */,
 				F75C67382AE06E08002FAA47 /* Ders2 */,
+				F71BDC572AE19833008A82DA /* Ders3 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +152,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F71BDC562AE19833008A82DA /* Ders3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71BDC5D2AE19834008A82DA /* Build configuration list for PBXNativeTarget "Ders3" */;
+			buildPhases = (
+				F71BDC532AE19833008A82DA /* Sources */,
+				F71BDC542AE19833008A82DA /* Frameworks */,
+				F71BDC552AE19833008A82DA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ders3;
+			productName = Ders3;
+			productReference = F71BDC572AE19833008A82DA /* Ders3 */;
+			productType = "com.apple.product-type.tool";
+		};
 		F75C67372AE06E08002FAA47 /* Ders2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F75C673E2AE06E08002FAA47 /* Build configuration list for PBXNativeTarget "Ders2" */;
@@ -183,6 +229,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					F71BDC562AE19833008A82DA = {
+						CreatedOnToolsVersion = 15.0;
+					};
 					F75C67372AE06E08002FAA47 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -210,11 +259,20 @@
 				F772C7C52AE0523E0024CE59 /* with-Murat-Yucedag */,
 				F772C7D32AE0526F0024CE59 /* Ders1 */,
 				F75C67372AE06E08002FAA47 /* Ders2 */,
+				F71BDC562AE19833008A82DA /* Ders3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F71BDC532AE19833008A82DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71BDC5A2AE19834008A82DA /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F75C67342AE06E08002FAA47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +300,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		F71BDC5B2AE19834008A82DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F71BDC5C2AE19834008A82DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F75C673C2AE06E08002FAA47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -408,6 +482,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F71BDC5D2AE19834008A82DA /* Build configuration list for PBXNativeTarget "Ders3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71BDC5B2AE19834008A82DA /* Debug */,
+				F71BDC5C2AE19834008A82DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F75C673E2AE06E08002FAA47 /* Build configuration list for PBXNativeTarget "Ders2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
