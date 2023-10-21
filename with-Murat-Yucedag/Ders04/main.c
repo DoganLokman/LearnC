@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int main() {
+int main() { // Buradaki int main() parantezinin içinin boş olma durumu kullanımdan kaldırıldı, ancak bu değerlerin anlatıldığı derse kadar biz boş kullanacağız.
     // int (integer) türü kullandığımız tam sayı verileri saklamak için kullanılan veri türüdür.
     // char değişkenlerde değeri okumak için %s kullanılırdı, sayısal değerleri okumak ve yazdırmak için %d kullanılır. %d decimal kelimesinden gelmektedir.
     /*

@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int main() { //main parantezinin içini şimdilik siliyoruz. oradaki değerler anlatılacak!
+int main() { // Buradaki int main() parantezinin içinin boş olma durumu kullanımdan kaldırıldı, ancak bu değerlerin anlatıldığı derse kadar biz boş kullanacağız.
     // Bu derste scanf fonksiyonu incelenecek.
     /*
     char kitapad[20] = "Kadın Beyni";
