@@ -41,4 +41,24 @@
     <th>Ders 9</th>
     <td>Bu derste karar yapıları içerisinde mod alma, ve (&&) ile veya (||) komutları işleyişi ile ilgili örnekler yaıldı.</td>
   </tr>
+  <tr>
+    <th>Ders 10</th>
+    <td>Bu derste döngülere giriş yapıldı. for döngüsü işlendi.</td>
+  </tr>
+  <tr>
+    <th>Ders 11</th>
+    <td>Bu derste for döngüsü ile 1'den 10'a kadar olan sayıların toplamını hesaplayan kod ile faktöriyel hesaplayan kod yazıldı.</td>
+  </tr>
+  <tr>
+    <th>Ders 12</th>
+    <td>Bu derste Fibonacci ve tribonacci serilerinin ilk 10 sayılarını bulan kod yazıldı.</td>
+  </tr>
+  <tr>
+    <th>Ders 13</th>
+    <td>Bu derste Bu derste mod alma operatörü ile 3 basamklı sayıları basamak değerlerini bulan kod yazıldı.</td>
+  </tr>
+  <tr>
+    <th>Ders 14</th>
+    <td>Bu derste while döngüsü işlendi.</td>
+  </tr>
 </table>
