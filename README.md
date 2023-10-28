@@ -21,4 +21,24 @@
     <th>Ders 4</th>
     <td>Bu derste int (integer) veri türü incelendi.</td>
   </tr>
+  <tr>
+    <th>Ders 5</th>
+    <td>Bu derste klavyeden girilen int (integer) veri tipiyle ilgili işlemler anlatılıp örneklendirildi.</td>
+  </tr>
+  <tr>
+    <th>Ders 6</th>
+    <td>Bu derste float tpip verler incelendi.</td>
+  </tr>
+  <tr>
+    <th>Ders 7</th>
+    <td>Bu derste klavyeden girilen float türünde veriler ile ilgili çeşitli uygulamalar ve örnekler yapıldı.</td>
+  </tr>
+  <tr>
+    <th>Ders 8</th>
+    <td>Bu derste karar yapıları olan if ve else yapıları incelendi..</td>
+  </tr>
+  <tr>
+    <th>Ders 9</th>
+    <td>Bu derste karar yapıları içerisinde mod alma, ve (&&) ile veya (||) komutları işleyişi ile ilgili örnekler yaıldı.</td>
+  </tr>
 </table>
