@@ -61,4 +61,12 @@
     <th>Ders 14</th>
     <td>Bu derste while döngüsü işlendi.</td>
   </tr>
+  <tr>
+    <th>Ders 15</th>
+    <td>Bu derste switch / case döngüsü işlendi.</td>
+  </tr>
+  <tr>
+    <th>Ders 16</th>
+    <td>Bu derste switch / case döngüsü ile ilgili örnekler verildi.</td>
+  </tr>
 </table>
