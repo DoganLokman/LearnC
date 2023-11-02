@@ -69,4 +69,16 @@
     <th>Ders 16</th>
     <td>Bu derste switch / case döngüsü ile ilgili örnekler verildi.</td>
   </tr>
+  <tr>
+    <th>Ders 17</th>
+    <td>Bu derste dizilerin genel bir tanımlaması ve yazım şekilleri incelendi.</td>
+  </tr>
+  <tr>
+    <th>Ders 18</th>
+    <td>Bu derste dizi elemanlarının listelenmesi ve dizi elemanları üzerinde toplama işleminin yapılması gibi konular işlendi.</td>
+  </tr>
+  <tr>
+    <th>Ders 19</th>
+    <td>Bu derste çok boyutlu dizilere küçük bir giriş yapıldı ve diziler ve diziler üzerinde kullanıcıdan veri alınıp işlenmesi gibi konular ve bunlara ilişkin örnekler ile ödevler yapıldı..</td>
+  </tr>
 </table>
